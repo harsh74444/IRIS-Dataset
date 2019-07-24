@@ -1,5 +1,5 @@
 # IRIS-Dataset
-Classification of plants on the basis of their features using Random Forest and Logistic Regression
+Classification of plants on the basis of their features using Random Forest.
 
 ## About- Dataset
 The Iris dataset was used in R.A. Fisher's classic 1936 paper, The Use of Multiple Measurements in Taxonomic Problems, and can also be found on the UCI Machine Learning Repository.
@@ -14,4 +14,4 @@ The features in the dataset are:
 5. Species
 
 ## Goal
-The goal of the analysis is to introduce one with the Machine Learning classification algorithms and their implementation using R and Python. In this specific dataset, most widely used classification algorithms, namely, Random Forest and Logistic Regressions are used.
+The goal of the analysis is to introduce one with the Machine Learning classification algorithms and their implementation using R and Python. In this specific dataset, most widely used classification algorithm, namely, Random Forest is used.
