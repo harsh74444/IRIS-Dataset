@@ -14,17 +14,14 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier as rfc
 from sklearn import metrics
 
-iris = pd.read_csv("D:\Random\iris\iris.csv")
+iris = pd.read_csv("\Data_Path")
 #print(iris)
 #print('\n')
 iris = pd.DataFrame(iris)
-'''
+
 print(iris)
 print('\n')
 print(type(iris))
-'''
-
-'''
 
                         Data Visualization
 
@@ -83,13 +80,11 @@ sns.distplot(iris['sepal.width'], hist = True, color = 'red', bins = 25)
 # Pairplotting using seaborn library
 sns.pairplot(iris, hue = 'species', size = 2.5)
 
-'''
 
-'''
 
             TRAINING & TESTING MODEL USING RANDOM FOREST
 
-'''
+
 X = iris[['sepal.length', 'sepal.width', 'petal.length', 'petal.width']]
 y = iris['species']
 
